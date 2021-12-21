@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x50"
+    android:gravity="center_vertical"
+    android:id="@+id/headerLayout"
+
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x2"
+        android:background="@color/bg_gray"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/x5"
+
+        />
+
+
+  <!--  <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/stepsProfileProgressBar"
+        android:progressTint="?attr/colorPrimaryDark"
+        android:progressBackgroundTint="@color/transparent"
+        android:layout_width="@dimen/x45"
+        android:layout_height="@dimen/x45"
+        android:layout_gravity="bottom"
+        android:indeterminate="false"
+        android:max="100"
+        android:secondaryProgress="100"
+        android:visibility="visible"/>
+-->
+
+    <!--<ProgressBar
+        android:id="@+id/stepsProfileProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:background="@color/transparent"
+        android:progressTint="?attr/colorPrimaryDark"
+        android:progressBackgroundTint="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x2"
+        android:layout_gravity="bottom"
+        android:visibility="gone"/>-->
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5">
+
+
+            <ImageView
+                android:id="@+id/ivLeftBackIcon"
+                android:layout_width="@dimen/x30"
+                android:layout_height="@dimen/x30"
+                android:src="@drawable/ic_back_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/x10"
+                android:layout_marginTop="@dimen/x5"
+                android:padding="@dimen/x5"
+                android:visibility="visible"
+                android:layout_marginStart="@dimen/x16"
+                android:layout_marginBottom="@dimen/x5"/>
+
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s20"
+                android:textColor="@color/black"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:text="@string/app_name"/>
+
+
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/s18"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_back_arrow"
+            android:text="Wallet"
+            android:drawablePadding="@dimen/x8"
+            android:visibility="visible"
+            android:textColor="@color/black"
+
+
+            />
+
+
+        <ImageView
+            android:id="@+id/ivRightEditIcon"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/x25"
+            android:src="@drawable/ic_back_arrow"
+            android:padding="@dimen/x3"
+            android:layout_marginEnd="@dimen/x15"
+            android:layout_gravity="end|center"
+            android:visibility="gone"/>
+
+
+
+
+    </FrameLayout>
+
+
+    <!-- Search Section -->
+
+
+
+    <!-- Search Section -->
+
+</FrameLayout>

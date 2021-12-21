@@ -1,0 +1,232 @@
+{
+	"messages": {
+		"error_messages": {
+			"internet": "Check your internet and Try again.",
+			"internal": "Some Internal Error Has Occurred"
+		},
+		"validation_messages": {
+			"string_email_required": "Email is required",
+			"string_email_incorrect": "Email is invalid",
+			"string_password_required": "Password is required",
+			"string_password_not_long": "Password must be eight digits long",
+			"string_username_required": "Username is required",
+			"string_fill_fields": "Kindly fill in all the fields",
+			"string_password_not_match": "New and confirm passwords do not match"
+		},
+		"hint_messages": {
+			"string_search_stores": "Search Stores",
+			"string_search_category": "Search Category",
+			"string_search_products": "Search Products",
+			"string_enter_address_name": "Enter your address name",
+			"string_enter_full_address": "Enter your full address",
+			"string_enter_zip_postal_code": "Enter your ZIP/Postal code",
+			"string_enter_country": "Enter your Country",
+			"string_enter_state": "Enter your State",
+			"string_enter_city": "Enter your City",
+			"string_search": "Search",
+			"string_enter_card_title": "Enter your card title",
+			"string_enter_card_number": "Enter the 16 digit card number",
+			"string_enter_card_expiry": "Card expiry",
+			"string_enter_card_cvv": "Enter CVV",
+			"string_enter_first_name": "First Name",
+			"string_enter_last_name": "Last Name",
+			"string_enter_phone_number": "Phone Number",
+			"string_old_password": "Old password",
+			"string_new_password": "New password",
+			"string_confirm_password": "Confirm password",
+			"string_search_faqs": "Search FAQs"
+		}
+
+	},
+	"global": {
+		"string_app_name": "App Name",
+		"string_featured": "Featured",
+		"string_categories": "Categories",
+		"string_edit": "Edit",
+		"string_default": "Default",
+		"string_mark_default": "Mark Default",
+		"string_cancel": "Cancel",
+		"string_save": "Save",
+		"string_update": "Update",
+		"string_on_going": "Ongoing",
+		"string_completed": "Completed",
+		"string_order_id": "Order id:",
+		"string_im_sure": "I'm Sure",
+		"string_go_back": "Go back",
+		"string_close_map": "Close Map",
+		"string_camera": "Camera",
+		"string_gallery": "Gallery",
+		"string_terms_conditions": "Terms And Conditions",
+		"string_privacy_policy": "Privacy Policy",
+		"string_faqs": "FAQs"
+	},
+	"on_boarding": {
+		"string_welcome": "Welcome to\nCartmates",
+		"string_get_groceries": "Ger your groceries in as fast as one hour",
+		"btn_get_started": "Get Started"
+	},
+	"login": {
+		"string_loging": "Loging",
+		"string_enter_credentials": "Enter your emails and password",
+		"string_email": "Email",
+		"string_password": "Password",
+		"string_forget_password": "Forgot Password?",
+		"string_dont_have_account": "Don't have an account ?",
+		"string_sign_up": "Sign up",
+		"string_login": "Log In"
+	},
+	"sign_up": {
+		"string_sign_up": "Sign Up",
+		"string_enter_credentials": "Enter your credentials to continue",
+		"string_email": "Email",
+		"string_password": "Password",
+		"string_username": "Username",
+		"string_already_have_account": "Already have an account ?",
+		"string_login": "Login",
+		"string_terms_service": "By continuing you agree to our Terms of Service and Privacy Policy"
+	},
+	"home": {
+		"string_your_orders": "Your Orders",
+		"string_popular_stores": "Popular Stores",
+		"string_all_stores": "All Stores",
+		"string_latest_deals": "Latest Deals"
+	},
+	"category": {
+		"string_empty_title": "NO CATEGORIES FOUND",
+		"string_empty_sub_title": "This store does not have any categories at the moment"
+	},
+	"featured": {
+		"string_empty_title": "NO FEATURED PRODUCTS",
+		"string_empty_sub_title": "This store does not have any featured products at the moment",
+		"string_see_more": "See More"
+	},
+	"product": {
+		"string_empty_title": "NO PRODUCTS FOUND",
+		"string_empty_sub_title": "This store does not have any products with this keyword at the moment"
+	},
+	"product_detail": {
+		"string_add_to_basket": "Add to Basket",
+		"string_update_basket": "Update Basket"
+	},
+	"cart": {
+		"string_nav_title": "Cart",
+		"string_empty_title": "Empty Cart",
+		"string_empty_sub_title": "Add an item to cart and it will show up here",
+		"string_checkout": "Checkout",
+		"string_service_fee": "Service Fee",
+		"string_delivery_fee": "Delivery Fee"
+	},
+	"profile": {
+		"string_orders": "Orders",
+		"string_my_details": "My Details",
+		"string_delivery_address": "Delivery Address",
+		"string_payment_methods": "Payment Methods",
+		"string_help": "Help",
+		"string_about": "About",
+		"string_logout": "Log Out"
+	},
+	"my_addresses": {
+		"string_nav_title": "My Addresses",
+		"string_empty_title": "NO ADDRESS",
+		"string_empty_sub_title": "You have no address, create new address to see your addresses here",
+		"string_create_new_address": "Create new address"
+	},
+	"add_new_address": {
+		"string_nav_title_create_address": "Create Address",
+		"string_nav_title_update_address": "Update Address",
+		"string_mark_default_address": "Make this address your default address",
+		"string_address_name": "Address Name",
+		"string_full_address": "Address",
+		"string_zip_postal_code": "ZIP Code",
+		"string_country": "Country",
+		"string_state": "State",
+		"string_city": "City"
+	},
+	"payment_methods": {
+		"string_nav_title": "Payment Methods",
+		"string_empty_title": "NO PAYMENT METHOD",
+		"string_empty_sub_title": "You have no payment method, add new method to see your payments here",
+		"string_add_new_method": "Add new method"
+	},
+	"add_new_payment_method": {
+		"string_nav_title": "Payment Methods",
+		"string_card_name": "Name on the card",
+		"string_card_number": "Card Number",
+		"string_card_exp": "Card Exp",
+		"string_card_cvv": "Card CVV",
+		"string_create": "Create"
+	},
+	"checkout_bottom_sheet": {
+		"string_checkout": "Checkout",
+		"string_address": "Address",
+		"string_select_address": "Select Address",
+		"string_payment": "Payment",
+		"string_select_payment": "Select Payment Method",
+		"string_total_cost": "Total Cost",
+		"string_place_order": "Place Order"
+	},
+	"order_placed": {
+		"string_title": "Thank you for your order",
+		"string_sub_title": "We will assign you a rider as soon as possible",
+		"string_track_order": "Track Order",
+		"string_back_to_home": "Back to home"
+	},
+	"on_going_orders": {
+		"string_empty_title": "NO ORDERS",
+		"string_empty_sub_title": "You have no ongoing order,place an order to see ongoing orders here"
+	},
+	"completed_orders": {
+		"string_empty_title": "NO ORDERS",
+		"string_empty_sub_title": "You have no completed orders. All completed order will appear here"
+	},
+	"looking_for_rider": {
+		"string_elapsed_time": "Elapsed Time:",
+		"string_cancel_order": "Cancel Order",
+		"string_title_looking_for_rider": "LOOKING FOR NEARBY RIDERS",
+		"string_sub_title_looking_for_rider": "your order has been placed and a rider will soon be assigned",
+		"string_cancel_order_title": "Are you sure?",
+		"string_cancel_order_message": "You are about to cancel the order, this is an irreversible process"
+	},
+
+	"ordered_products": {
+		"string_nav_title": "Ordered Products",
+		"string_item_summary": "Item summary",
+		"string_ordered_products": "These are all the items you ordered"
+	},
+	"user_details": {
+		"string_nav_title": "My Details",
+		"string_title_first_name": "First Name",
+		"string_title_last_name": "Last Name",
+		"string_title_email": "Email",
+		"string_title_phone": "Phone",
+		"string_title_country": "Country",
+		"string_title_change_password": "Change Password",
+		"string_title_change_picture": "Change Picture"
+	},
+	"change_password": {
+		"string_nav_title": "Change Password",
+		"string_title_old_password": "Enter old password",
+		"string_title_new_password": "Enter new password",
+		"string_title_confirm_password": "Confirm password",
+		"string_title_change_password": "Change Password"
+	},
+	"help": {
+		"string_nav_title": "Help",
+		"string_title_help": "How can we help you?",
+		"string_help_description": "If you need any help you can look to FAQs, where you can find a lot of queries. Also you can email us, we are always there for you.",
+		"string_title_faq": "FAQs",
+		"string_title_email_us": "Email Us"
+	},
+	"about_us": {
+		"string_nav_title": "About Us",
+		"string_title_about_us": "What is Cartmates?",
+		"string_description_about_us": "If you need any help you can look to FAQs, where you can find a lot of queries. Also you can email us, we are always there for you.",
+		"string_title_terms_conditions": "View Terms and Conditions",
+		"string_title_privacy_policy": "View Privacy Policy"
+	},
+	"favourites": {
+		"string_nav_title": "Favourites",
+		"string_empty_title": "NO FAVORITE ITEMS FOUND",
+		"string_empty_sub_title": "You have no favorite items, please click on heart to make it favorite"
+	}
+}
